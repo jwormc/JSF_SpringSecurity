@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:h="http://java.sun.com/jsf/html"
+    xmlns:p="http://primefaces.org/ui">
+<h:head>
+</h:head>
+<h:body>
+    <div align="right" style="">
+        <h:form  id="loginFormId" prependId="false">
+                <div id="loginFieldsPnlId">
+                    <div id="loginFieldUsrContId">
+                        <h:outputText id="outTxtUserNameId" value="Username:" name="outTxtUserNameNm"></h:outputText>
+                        <p:inputText id="userName" required="true" value="#{loginMgmtBean.userName}" requiredMessage="Please enter username"></p:inputText>
+                        <h:outputLabel id="outLblUserNameId" for="userName" name="outLblUserNameNm"></h:outputLabel>
+                    </div>
+                    <div id="loginFieldPassContId">
+                        <h:outputText id="outTxtPasswordId" value="Password:" name="outTxtPasswordNm"></h:outputText>
+                        <p:password id="password"  required="true" value="#{loginMgmtBean.password}" requiredMessage="Please enter password" name="inTxtPasswordNm"></p:password>
+                        <h:outputLabel id="outLblPasswordId" for="password" name="outLblPasswordNm"></h:outputLabel>
+                    </div>
+                </div>
+                <div id="loginBtnPanelId">
+                    <p:commandButton id="btnLoginId" value="Login" action="#{loginMgmtBean.login}" styleClass="loginPanelBtn"></p:commandButton>
+                    <p:commandButton id="btnCancelId" value="Cancel" action="#{loginMgmtBean.cancel}" styleClass="loginPanelBtn" immediate="true" update="loginFormId"></p:commandButton>
+                </div>
+        </h:form>
+    </div>
+    <div>
+        <p:messages></p:messages>
+    </div>
+</h:body>
+</html>

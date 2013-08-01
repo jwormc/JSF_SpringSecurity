@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scene Scope="Project" version="2">
+    <Scope Scope="Faces Configuration Only"/>
+    <Scope Scope="Project">
+        <Node id="paginasJSF/common/login.xhtml" x="785" y="119" zoom="true"/>
+        <Node id="paginasJSF/secure/secured.xhtml" x="415" y="391" zoom="true"/>
+        <Node id="faces/paginasJSF/unsecure/unsecured.xhtml" x="150" y="150" zoom="true"/>
+        <Node id="paginasJSF/unsecure/unsecured.xhtml" x="34" y="173" zoom="true"/>
+        <Node id="paginasJSF/home/home.xhtml" x="323" y="10" zoom="true"/>
+        <Node id="paginasJSF/index/index.jsp" x="49" y="539" zoom="true"/>
+        <Node id="index.xhtml" x="89" y="597" zoom="true"/>
+        <Node id="faces/paginasJSF/home/home.xhtml" x="150" y="300" zoom="true"/>
+        <Node id="faces/paginasJSF/secure/secured.xhtml" x="650" y="150" zoom="true"/>
+        <Node id="paginasJSF/layoutEjemplo.xhtml" x="52" y="652" zoom="true"/>
+        <Node id="faces/paginasJSF/common/login.xhtml" x="400" y="150" zoom="true"/>
+    </Scope>
+    <Scope Scope="All Faces Configurations"/>
+</Scene>
